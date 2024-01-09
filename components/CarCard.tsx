@@ -69,4 +69,4 @@ const CarCard = ({ car }: CarCardProps) => {
     )
 }
 
-export default CarCard
+export default CarCard;

@@ -81,4 +81,4 @@ const SearchManufacturer = ({ manufacturer, setManufacturer}: SearchManufacturer
     )
 }
 
-export default SearchManufacturer
+export default SearchManufacturer;
