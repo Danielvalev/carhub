@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <h2 align="center">CarHub</h2>
 
+  <p align="center">
+    CarHub website presents various car types, showcasing comprehensive information in a well-designed format with advanced filtering and pagination support for an enhanced user experience.
+    <br />
+    <br />
+  Deployed with Vercel: https://carhubproject.vercel.app/
+    <br />
+    <br />
+    <a href="https://carhubproject.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/Danielvalev/carhub/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Danielvalev/carhub/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#application-requirements">Application Requirements</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#structure">Structure</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+### Built With
+
+* [Next.js](https://nextjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Taiwind CSS](https://tailwindcss.com/)
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Application Requirements
+
+1. [Node.js](https://nodejs.org/en)
+2. [npm](https://www.npmjs.com/) (Node Package Manager)
+
+### Installation
+Make sure you have already downloaded and install node.js
+
+1. The first thing to do is to clone the repository:
+ ```sh
+$ git clone https://github.com/Danielvalev/carhub
+$ cd carhub
+`````````````
+
+2. Install other packages:
+- For MacOS: 
+ ```sh
+$ npm i
+`````````````
+
+- For Windows:
+ ```sh
+C:\Users\Name\carhub> npm i
+`````````````
+
+3. Run development server
+```sh
+$ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Expected result:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+> carhub@0.1.0 dev
+> next dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ▲ Next.js 14.0.3
+   - Local:        http://localhost:3000
 
-## Learn More
+ ✓ Ready in 2.4s
+```
 
-To learn more about Next.js, take a look at the following resources:
+And navigate to carhub homepage using `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Other syntaxes
+To kill/stop the server 
+> Ctrl + c
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- Structure -->
+## Structure
 
-## Deploy on Vercel
+```
+app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+components
+├── CarCard.tsx
+├── CarDetails.tsx
+├── CustomButton.tsx
+├── CustomFilter.tsx
+├── Footer.tsx
+├── Hero.tsx
+├── index.tsx
+├── Navbar.tsx
+├── SearchBar.tsx
+├── SearchManufacturer.tsx
+└── ShowMore.tsx
+constants
+└── index.tsx
+public
+└── ...
+types
+└── index.tsx
+utils
+└── index.tsx
+.gitignore
+LICENCE
+README.md
+next.config.js
+package-lock.json
+package.json
+postcss.config.js
+tailwind.config.ts
+tsconfig.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- ROADMAP -->
+## Roadmap
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+See the [open issues](https://github.com/Danielvalev/carhub/issues) for a list of proposed features (and known issues).
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Daniel Valev - danielvalev89@gmail.com
+
+Project Link: [https://github.com/Danielvalev/carhub](https://github.com/Danielvalev/carhub)
